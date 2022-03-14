@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weather_fragment">
+
+    <fragment
+        android:id="@+id/weather_fragment"
+        android:name="com.example.leoweatherapp.WeatherFragment"
+        tools:layout="@layout/fragment_weather">
+
+        <action
+            android:id="@+id/weather_to_error"
+            app:destination="@id/error_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/error_fragment"
+        android:name="com.example.leoweatherapp.ErrorFragment"
+        tools:layout="@layout/fragment_error" >
+        <argument
+            android:name="errorType"
+            app:argType="java.lang.Exception"
+            app:nullable="true" />
+    </fragment>
+</navigation>

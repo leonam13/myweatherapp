@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="weather_fragment_current_temperature">%d°</string>
+    <string name="weather_fragment_min_max_temperature">L: %1$d° H: %2$d°</string>
+
+    <string name="location_services_dialog_not_granted_title">Permission Required</string>
+    <string name="location_services_dialog_not_granted_message">This app requires the location permission to work properly</string>
+    <string name="location_services_dialog_not_granted_positive_button">Grant Permission</string>
+    <string name="location_services_dialog_resolution_title">Location not found</string>
+    <string name="location_services_dialog_resolution_message">It seems your location couldn\'t be accessed.</string>
+    <string name="location_services_dialog_resolution_positive_button">Try Again</string>
+
+    <string name="error_fragment_button">Try Again</string>
+    <string name="error_fragment_message">There was an error trying to fetch info.</string>
+    <string name="error_fragment_not_network_exception">Check your connection and try again</string>
+
+    <string name="activity_main_loading_text">Updating data…</string>
+</resources>

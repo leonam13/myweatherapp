@@ -1,4 +1,4 @@
-#Leo Weather App - A Weather App made by Leo :D
+#Leo Weather App - A Weather App made by Leo :D#
 
 Architecture: MVVM + Repository Pattern
 
@@ -33,7 +33,13 @@ Trade-Offs:
 - Dependencies for test as hamcrest, roboletric, espresso.
 
 Used some base code from following sources:
-For Location Settings: https://developer.android.com/training/location/change-location-settings.html
-For Location Updates: https://developer.android.com/training/location/request-updates
+For Location Settings:
+https://developer.android.com/training/location/change-location-settings.html
+
+For Location Updates:
+https://developer.android.com/training/location/request-updates
+
 Result class and LiveDataTestUtil from https://github.com/android/architecture-samples
-Single live event https://proandroiddev.com/singleliveevent-to-help-you-work-with-livedata-and-events-5ac519989c70
+
+Single live event
+https://proandroiddev.com/singleliveevent-to-help-you-work-with-livedata-and-events-5ac519989c70
